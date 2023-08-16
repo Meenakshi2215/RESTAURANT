@@ -1,0 +1,330 @@
+*{
+    margin: 0; /* default margin kalayan */
+    padding: 0;
+} 
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative; /* to keep exact position */
+}
+
+.navbar{
+    display: flex; /* display in side by side */
+    justify-content: space-between;/* to display items in opposite side */
+    width: 100%;
+    /* height: 110px; */
+    /* margin-left: 100px; */
+    align-items: center;
+    background-color: brown;
+}
+
+
+.listitem{
+    display: inline-block; /* to display items in a single line */
+    list-style: none; /* to don't dispaly bullets in any browser */
+    margin: 10px 20px;
+    color: antiquewhite;
+}
+
+#logo{
+    width: 100px;
+    
+}
+
+.bg p{
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/929/587/desktop-wallpaper-vanilla-ice-cream.jpg');
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-right: 180px;
+}
+
+#span{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+.link{
+    color: black;
+    text-decoration: none; /* to remove underlines of the links */
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+.link:hover{
+    color: whitesmoke;
+}
+
+/* about section */
+.heading{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 30px;
+}
+
+.about-content{
+    margin-top: 2rem; /*  1rem = 16px */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.about-details{
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.information{
+    font-size: 20px;
+}
+
+.information h4{
+    font-size: 30px;
+}
+#heading1{
+    color: chocolate;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* menu section */
+.menu-content{
+    height: 2200px;
+    width: 100%;
+}
+
+.menu-img{
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10%; /* used to cruve the corners */
+    margin: 40px;
+    font-family: 'Edu SA Beginner', cursive;
+    float: left;
+}
+
+.menu-img img{
+    width: 50%;
+    border-radius: 100%;
+    height: 200px;
+    display: flex;
+}
+
+button{
+    text-decoration: none; /* to remove underlines of the lin */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.sp-img{
+    width: 400px;
+    height: 400px;
+    background-color: lightsalmon;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10%; /* used to cruve the corners */
+    /* display: flex; */
+    gap: 2rem;
+    margin: 40px;
+    font-family: 'Edu SA Beginner', cursive;
+    float: left;
+}
+
+.sp-img img{
+    width: 50%;
+    border-radius: 10%;
+    height: 200px;
+    display: flex;
+    margin: 10px;
+
+}
+
+/* reservation section */
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-left: 900px;
+    background-color: rgb(47, 33, 33);
+    width: 400px;
+    height: 320px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+}
+
+.reserve-content{
+    background-image: url('https://media.istockphoto.com/id/468676294/photo/sweet-homemade-ice-cream.jpg?s=612x612&w=0&k=20&c=PBjzM5dY7O5lgVKY3Pul8drsBduKk1t1IKJj-xQ2Eqk=');
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    /* text-align: center; */
+    margin-right: 900px; 
+}
+
+.form-heading{
+    margin-left: 900px;
+    margin-top: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+
+#name{
+    font-size: 17px;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid lightgray;
+    opacity: 0.5;
+}
+#mail{
+    font-size: 17px;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid lightgray;
+    opacity: 0.5;
+}
+
+#ph{
+    font-size: 17px;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid lightgray;
+    opacity: 0.5;
+}
+
+#dt{
+    font-size: 17px;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid lightgray;
+    opacity: 0.5;
+}
+
+#make{
+    font-size: 17px;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid lightgray;
+    opacity: 0.5;
+}
+
+/* .contact-details{
+    font-family: 'Edu SA Beginner', cursive;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 400px;
+    height: 320px;
+    border-radius: 2%;
+    margin: 50px;
+} */
+
+.icon-set{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;/* gap b/w div */
+    height: 50px;/* gap b/w div */
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px; /* space b/w div */
+}
+
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+
+.icon:hover{
+    background-image: linear-gradient(to bottom right , rgb(220, 121, 15) , rgb(160, 83, 41)); /* to create color combination while hover */
+}
+
+.icon:hover i{ /* color change when we hover to div */
+    color: white;
+    animation: shake 0.75s infinite; /* to give animation */
+}
+
+@keyframes shake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
+
+#map{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* footer */
+.arrow_up{
+    float: right;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right , white ,orange);
+}
+
+.arrow_up:hover i{
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth; /* entire html page inn smooth aayitt navigate cheyyan */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
