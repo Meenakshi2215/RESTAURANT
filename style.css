@@ -279,7 +279,7 @@ button{
     animation: shake 0.75s infinite; /* to give animation */
 }
 
-@keyframes shake{
+@keyframes shake{ /* to create animation */
     10%{transform: rotate(15deg);}
     20%{transform: rotate(-15deg);}
     30%{transform: rotate(15deg);}
